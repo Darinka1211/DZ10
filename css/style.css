@@ -1,0 +1,70 @@
+html, body {
+    margin:0;padding:0;
+    background-color: grey;}
+.main {
+    margin:0 auto; 
+    width:100%; 
+    max-width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 60px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+    
+.knop
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+}
+.buttons {
+    width: 100px;
+    height: 50px;
+    margin-left: 23px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;}
+
+.content {
+    height: 300px;
+}
+textarea {
+    margin-top: 30px;
+    padding: 25px;
+    width: 600px;
+    height: 250px;
+}
+.right-block {
+    margin-top: 30px;
+    margin-right: 50px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.font{
+    display: flex;
+   flex-direction: row;
+    justify-content: space-between;
+
+}
+.text-color{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;   
+}
+.knopT
+{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;}
